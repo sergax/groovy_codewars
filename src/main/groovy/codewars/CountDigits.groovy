@@ -6,10 +6,10 @@ class CountDigits {
     static int nbDig(int n, int d) {
         // your code here
         def list = new ArrayList()
-        for (int i =0; i <= n; i++) {
-            list[i] = 1 * i * i
+        for (int i = 0; i <= n; i++) {
+            list[i] = i * i
         }
-        def count = list.join().split("").countBy{it}
+        def count = list.join().split("").countBy { it }
         count.get(d as String)
     }
 
