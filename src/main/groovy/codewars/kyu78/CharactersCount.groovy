@@ -1,4 +1,4 @@
-package codewars
+package codewars.kyu78
 
 import org.junit.Test
 
